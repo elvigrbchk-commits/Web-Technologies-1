@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(rgba(255, 238, 206, 0.848), rgba(163, 125, 94, 0.827));
+    font-family: "Lora", serif;
+}
+h1, h2, h3, h4{
+    font-family: "Playfair Display", serif;
+}
+.header {
+    background-color: rgb(163, 125, 94);
+    color: rgba(255, 238, 206, 0.848);
+    padding: 30px;
+    text-align: center;
+}
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+img{
+    max-width: 300px; 
+    border-radius:15px;
+    box-shadow: 0 4px 10px rgb(152, 116, 87);
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 28px;
+    color: rgb(99, 70, 49);
+}
+h3, h4 {
+    color: rgb(99, 70, 49);
+}
+p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: rgb(90, 65, 50);
+}
+ol {
+    list-style-type: decimal;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    margin-bottom: 10px;
+}
+a {
+    color: rgb(107, 82, 62);
+}
+a:hover {
+    color: rgb(71, 50, 34);
+}
+.btn {
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(107, 82, 62);
+    color: rgba(255, 238, 206, 0.848);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: rgb(71, 50, 34);
+    color: rgba(255, 238, 206, 0.848);
+}

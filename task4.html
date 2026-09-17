@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="task4.css">
+    </head>
+
+    <body>
+        <h1 id="page-heading">Student Grade Report</h1>
+        <table>
+            <caption>Students' Grades</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Subject</th>
+                    <th scope="col">Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">John</th>
+                    <td>Calculus</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <th scope="row">Ann</th>
+                    <td>Web Technologies 1</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <th scope="row">Alla</th>
+                    <td>Russian Language</td>
+                    <td>91</td>
+                </tr>
+                <tr>
+                    <th scope="row">Boris</th>
+                    <td>History</td>
+                    <td>86</td>
+                </tr>
+                <tr class="highlight-row">
+                    <th scope="row" colspan="2">Average grade</th>
+                    <td>93.75</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Feedback Form</h2>
+
+<form id="feedback-form">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+
+    <label for="role">Role:</label>
+    <select id="role">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Other</option>
+    </select>
+
+    <label>Was this page helpful?</label><br>
+    <input type="radio" name="helpful" value="yes"> Yes
+    <input type="radio" name="helpful" value="no"> No<br>
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments"></textarea><br>
+    <button type="submit">Submit</button>
+</form>
+    </body>
+</html>

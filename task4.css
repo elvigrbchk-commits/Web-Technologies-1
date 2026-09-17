@@ -1,0 +1,88 @@
+body{
+    margin: 40px;
+    background-color: rgb(255, 232, 249);
+}
+
+caption{
+    color: rgb(32, 101, 101);
+    font-weight: bold;
+    font-size: 24px;
+}
+th{
+    background-color: rgb(46, 128, 128);
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: max-content;
+    margin: 0 auto;
+}
+table, th, td{
+    border: 1px solid rgb(34, 82, 82);
+    text-align: center;
+}
+th, td{
+    padding: 10px 20px;
+    font-size: 24px;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(206, 255, 244);
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(253, 207, 207);
+}
+.highlight-row th, .highlight-row td{
+    background-color: rgb(246, 137, 137);
+    font-weight: bold;
+    color: white;
+}
+
+#page-heading{
+    text-align: center;
+    color: rgb(246, 137, 137)
+}
+h2{
+    text-align: center;
+    color: rgb(32, 101, 101);
+}
+#feedback-form {
+    width: 400px;
+    margin: 30px auto;
+    background-color: rgb(206, 255, 244);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    background-color: rgb(46, 128, 128);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: rgb(32, 101, 101);
+}

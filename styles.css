@@ -1,0 +1,52 @@
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 24px;
+}
+body{
+    background-color: rgb(251, 214, 237);
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(144, 34, 91);
+    margin: 40px;
+}
+ol, ul{
+    color:rgb(75, 75, 75);
+}
+.profile-card{
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border: 3px solid;
+    border-radius: 50px;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+#profile{
+    background-color: rgba(255, 255, 255, 0.399);
+}
+a{
+    color:hotpink;
+}
+a:hover{
+    color:deeppink;
+    text-decoration: underline;
+}
+.button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgba(255, 168, 217, 0.558);
+    border: 0px;
+    border-radius: 15px;
+}
+hr{
+    height: 3px;
+    background-color: rgb(144, 34, 91);
+    border: 0px;
+    border-radius: 3px;
+}
